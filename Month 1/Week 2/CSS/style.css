@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
+
+body{
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+    padding-bottom: 25px;
+    margin-left: 33%;
+    width: 600px;
+    border-style: double;
+    border-radius: 10px;
+    position: relative;
+}
+#google-logo{
+    height: 13px;
+    width: 13px;
+    
+}
+/* } Tried to do some things on my own without listening to the class
+#Sign{
+    margin-left: 810px;
+    margin-top: 170px;
+    text-decoration: wavy;
+}
+#button{
+    margin-left: 870px;
+}
+#hr1{
+    margin-right: 800px;
+    margin-top: 20px;
+    margin-left: 800px;
+
+}
+#name_box{
+    margin-left: 850px;
+    
+}
+#name{
+    margin-left: 910px;
+}
+#email{
+    margin-left: 909px;
+}
+#mail_box{
+    margin-left: 850px;
+}
+#pass{
+    margin-left: 895px;
+}
+#pass_box{
+    margin-left: 850px ;
+}
+#Rem_me{
+    margin-left: 880px;
+    margin-top: 20px;
+}
+#Sign_up{
+    margin-left: 885px;
+}
+#hr2{
+    margin-right: 800px;
+    margin-left: 800px;
+    margin-top: 25px;
+}
+#h4{
+    margin-left: 850px;
+}
+#log{
+    margin-left: 910px;
+} */
