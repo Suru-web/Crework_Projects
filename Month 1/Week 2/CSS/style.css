@@ -4,7 +4,6 @@ body{
     font-family: "Raleway", sans-serif;
     display: flex;
     justify-content: center;
-    text-align: center;
     margin-top: 10%;
     padding-bottom: 25px;
     margin-left: 33%;
@@ -18,6 +17,37 @@ body{
     width: 13px;
     
 }
+#log{
+    margin-left: 100px;
+    width: 100px;
+    
+}
+.login{
+    text-decoration: dashed;
+}
+#Sign_up{
+    background-color: #1b4aa3;
+          border-radius: 8px;
+          border-style: hidden;
+          color: white;
+          width: 300px;
+          height: 30px;
+          font-size: medium;
+}
+#button{
+    width: 300px;
+}
+#name_box{
+    width: 300px;
+}
+#pass_box{
+    width: 300px;
+}
+#mail_box{
+    width: 300px;
+}
+
+
 /* } Tried to do some things on my own without listening to the class
 #Sign{
     margin-left: 810px;
