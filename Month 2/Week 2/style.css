@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    background: linear-gradient(180deg, #43cea2 , #185a9d);
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.container {
+    padding:10px 70px 50px 70px ;
+    position: absolute;
+    background: #141e30;
+    top: 9rem;
+    text-align: center;
+    border-radius: 1rem;
+    width: 400px;
+    color: white;
+    
+}
+h1 span {
+    
+}
+.txt {
+    background: black;
+    color:white;
+    padding: 5px 70px;
+    border-radius: 13px;
+}
+.btn {
+    background-color: red;
+    padding: 5px 20px;
+    border-radius: 13px;
+    font-weight: bold;
+}
+.to-dos {
+    color: white;
+}
+.del{
+    background-color:black;
+    color:white;
+    padding: 5px 20px;
+    border-radius: 13px;
+    font-weight: bold;
+}
