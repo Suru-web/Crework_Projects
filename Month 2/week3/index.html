@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 7 - Pokemon API</title>
+
+    <link rel="stylesheet" href="/dist/output.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+</head>
+<body class="flex justify-center align-middle bg-slate-300">
+    <div id="zero" class="mt-[6rem] flex flex-col justify-center align-middle text-center items-center">
+        <img class="w-[5rem]" src="./pokeball.png" alt="">
+        <h1 class="p-[1rem] text-[4rem]">Pokémon</h1>
+        <button id="first" class="bg-black text-white p-4 text-[2rem] rounded-full font-extralight hover:bg-slate-500">Gotta catch 'em all</button>
+    </div>
+    <div id="second" class="hidden">
+        <div id="winner" class="text-center py-3 mb-[2rem] mt-[1rem]">
+            <span class='text-[1.8rem]'>&nbsp;</span>
+            <!-- winner declaration here -->
+        </div>
+        <div id="main" class="hidden [530px]:mt-[-20%]">
+            <div id="pokeimg1" class="w-[45%] flex flex-col text-center justify-center align-middle">
+                <!-- pokemon one details -->
+                <div id="img1" class="max-h-[30%] w-[100%] mb-[4.3rem] [530px]:mt-[-20%]">
+                </div>
+                <div id="info1" class="h-[70%]">
+                </div>
+            </div>
+            <div id="pokeimg2" class="w-[45%] flex flex-col text-center justify-center align-middle">
+                <!-- pokemon two details -->
+                <div id="img2" class="max-h-[30%] w-[100%] mb-[4.3rem] [530px]:mt-[-20%]">
+                </div>
+                <div id="info2" class="h-[70%]">
+                </div>
+            </div>
+        </div>
+        <div id="button" class="hidden mt-[-10%] [530px]:mt-[-20%] justify-center">
+            <button id="duel-btn" class="bg-black text-white w-[6rem] rounded-full p-1 text-[1.4rem] hover:bg-slate-600">
+                DUEL
+            </button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.js"></script>
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
